@@ -1,0 +1,100 @@
+.hero-section {
+  position: relative;
+}
+
+.banner-container {
+  height: 320px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  overflow: hidden;
+}
+
+.banner-img {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.chef-img {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.slogan {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  width: 30%;
+  animation: slogan-load 500ms ease-in;
+}
+
+@keyframes slogan-load {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .banner-img {
+    width: auto;
+    height: 100%;
+  }
+  .slogan {
+    top: 5%;
+    width: 45%;
+    left: 2%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner-img {
+    height: auto !important;
+    min-width: 100%;
+  }
+  .slogan {
+    top: 15%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .banner-img {
+    height: auto !important;
+    min-width: 100%;
+  }
+  .slogan {
+    top: 20%;
+    left: 3%;
+    width: 35%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner-img {
+    height: auto !important;
+    min-width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .banner-img {
+    width: auto;
+    height: 100%;
+  }
+  .slogan {
+    width: 45%;
+    top: 2%;
+  }
+  .chef-img {
+    position: absolute;
+    height: 100%;
+    right: 0;
+  }
+}

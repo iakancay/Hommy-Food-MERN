@@ -1,0 +1,74 @@
+.swiper {
+  width: 100%;
+}
+.swiper-wrapper {
+  padding-bottom: 50px;
+}
+
+.chefs-slider-header {
+  color: whitesmoke;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  padding: 5px 0;
+}
+
+.top-chef-card-body-container {
+  margin: 0;
+  padding: 0;
+}
+.top-chef-card-body-container .rated-star-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rated-star-container {
+  margin: 0 20px;
+}
+
+.top-chef-card-body-container .rated-star-container i {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+}
+.top-10-chef-img-container {
+  height: 200px;
+}
+
+.slider-chef-name {
+  font-size: 15px;
+}
+
+.card-img-Body {
+  padding-bottom: 0;
+}
+
+.visit-chef-btn {
+  height: 25px;
+  margin: 0;
+  padding: 0%;
+}
+
+.visit-chef-text {
+  font-size: 14px;
+  text-decoration: auto;
+  min-width: 100%;
+  min-height: 100%;
+  color: black;
+}
+
+.visit-chef-text:hover {
+  color: white;
+}
+
+.swiper-pagination {
+  bottom: 0px;
+}
